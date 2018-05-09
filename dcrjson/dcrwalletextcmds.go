@@ -273,6 +273,7 @@ type PurchaseTicketCmd struct {
 	Comment            *string
 	NoSplitTransaction *bool
 	TicketFee          *float64
+	SplitTx            *uint32
 }
 
 // NewPurchaseTicketCmd creates a new PurchaseTicketCmd.
